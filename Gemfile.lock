@@ -15,6 +15,9 @@ GEM
     reline (0.3.1)
       io-console (~> 0.5)
     rexml (3.2.5)
+    rmagick (4.2.4)
+    rtesseract (2.2.0)
+      nokogiri
     rubyzip (2.3.2)
     selenium-webdriver (4.1.0)
       childprocess (>= 0.5, < 5.0)
@@ -34,6 +37,8 @@ PLATFORMS
 DEPENDENCIES
   debug
   nokogiri (~> 1.11, >= 1.11.7)
+  rmagick
+  rtesseract (~> 2.1)
   selenium-webdriver (~> 4.1)
   watir (~> 6.19, >= 6.19.1)
   webdrivers (~> 4.6)
